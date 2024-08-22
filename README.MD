@@ -1,18 +1,19 @@
-# Gestión de Biblioteca
+# GESTOR DE LIBROS - BIBLIOTECA
 
     #### Video Demo:  <URL HERE>
     #### Description:
 
-   Este es un programa de gestión de biblioteca desarrollado en Python utilizando la biblioteca Tkinter para la interfaz gráfica y la biblioteca ReportLab para la generación de archivos PDF. Permite a los usuarios agregar, editar, eliminar y visualizar libros.
+   Este es un programa para llevar un control de los libros que un usuario pudiera tener en su casa; desarrollado en Python utilizando la biblioteca Tkinter para la interfaz gráfica. Este programa tiene como ojetivo controlar los libros que un usuario podria tener en su oficina o su hogar. Permite a los usuarios agregar, editar, eliminar y visualizar los libros que haya cargado.
+   El mismo fue desarrolado y probado con asistencia de Inteligencia Artificial Bito.
 
 ## Funcionalidad
 
-El programa permite realizar las siguientes acciones:
+Las siguientes acciones se encuentran permitidas por el programa:
 
-- **Agregar Libros**: Permite ingresar nuevos libros con su nombre, autor, género y año de publicación.
-- **Borrar Libros**: Permite eliminar libros seleccionados de la lista.
-- **Editar Libros**: Permite modificar la información de un libro seleccionado.
-- **Mostrar Libros**: Muestra una lista de todos los libros almacenados en un archivo CSV.
+- **Agregar Libros**: Es posible ingresar nuevos libros con su nombre, autor, género y año de publicación; en el campo de años se contempla la posibilidad de ingresar años en numeros romanos. En los campos de nombre, autor y genero se opto por no condicionar la forma de escribir del usuario y los campos fueron formateados utilizando la funcion Title().
+- **Borrar Libros**: Este metodo permite eliminar libros seleccionados de la lista.
+- **Editar Libros**: Esta función permite modificar la información de todos o algunos de los campos de informacion de un libro especifico. Para la edicion se depliega una pantalla secundaria con la finalidad de tener visualizacion de los campos que se estan editando en contraste con la lista.  
+- **Mostrar Libros**: Representa una lista de todos los libros almacenados en un archivo CSV. Desplegados en forma de lista dentro del formulario principal de la aplicacion.
 
 ## Requisitos
 
@@ -22,6 +23,7 @@ Para ejecutar este programa, necesitarás tener instalado lo siguiente:
 - **Bibliotecas de Python**: Este programa utiliza las siguientes bibliotecas que pueden no estar incluidas en la instalación estándar de Python:
   - `tkinter`: Generalmente viene incluido con Python, pero en algunos sistemas puede requerir instalación adicional.
   - `csv`: Esta biblioteca es parte de la biblioteca estándar de Python.
+  - Debe existir un archivo llamado library.csv en l directorio de la aplicacion.
   
 ## Uso
 
@@ -31,14 +33,13 @@ Para ejecutar este programa, necesitarás tener instalado lo siguiente:
    bash
    python main.py
 
-4. Se abrirá una ventana donde podrás gestionar tus libros.
+4. Se abrirá una ventana donde el usuario podrá gestionar los libros.
 
 ## Mantenimiento
 
-- **Agregar Libros**: Para agregar un libro, completa todos los campos requeridos y haz clic en el botón "Agregar Libro".
-- **Borrar Libros**: Selecciona un libro de la lista y haz clic en "Borrar Libro" para eliminarlo.
-- **Editar Libros**: Selecciona un libro y haz clic en "Editar Libro". Realiza los cambios necesarios y guarda los cambios.
-- **Generar PDF**: Haz clic en "Generar PDF" para crear un archivo PDF con la lista de libros.
+- **Agregar Libros**: Cuando haya completado todos los campos podra hacer click sobre el boton "Agregar Libro".
+- **Borrar Libros**: Si desea Borrar algun libro del sistema, debe seleccionar el registro en la lista y dar click en el boton "Borrar Libro".
+- **Editar Libros**: Si desea Editar la informacion de un libro podra seleccionar el registro en la lista y hacer click sobre el boton "Editar libro", en la ventana emergente podra modificar, uno o todos los campos del libro luego hacer click sobre el boton "Guardar Cambios"; para que los cambios sean guardados en el archivo csv.
 
 ## Contribuciones
 
