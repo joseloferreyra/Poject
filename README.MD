@@ -1,6 +1,6 @@
 # GESTOR DE LIBROS - BIBLIOTECA
 
-    #### Video Demo:  https://youtu.be/EkGY5RoEF-k
+    #### Video Demo: https://youtu.be/EkGY5RoEF-k
     #### Description:
 
    Este es un programa para llevar un control de los libros que un usuario pudiera tener en su casa; desarrollado en Python utilizando la biblioteca Tkinter para la interfaz gráfica. Este programa tiene como ojetivo controlar los libros que un usuario podria tener en su oficina o su hogar. Permite a los usuarios agregar, editar, eliminar y visualizar los libros que haya cargado.
